@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS CDN link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS Animation Css CDN link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Slick Slider CSS CDN Link -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!-- Custom Styling Sheet Link -->
+    <link rel="stylesheet" href="./assets/css/styles.css" type="text/css" />
+
+    <title>QuickCalligraphy | Calligraphy</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="galleryHeader">
+        <!-- Navbar Section Start -->
+        <div class="container navbar-container">
+          <nav class="navbar navbar-expand-lg p-0 navbar-shadow h-100">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <span class="s dancingFont fs-2"
+                  ><span class="cookie">Quick</span>Calligraphy</span
+                >
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item header-item">
+                    <a class="nav-link" aria-current="page" href="index.html">
+                      Home
+                    </a>
+                  </li>
+                  <li class="nav-item header-item">
+                    <a class="nav-link" aria-current="page" href="calligraphy.html">
+                      Calligraphy
+                    </a>
+                  </li>
+                  <li class="nav-item header-item">
+                    <a class="nav-link" href="about.html"> About </a>
+                  </li>
+                  <li class="nav-item header-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-li">
+                        <a class="dropdown-item" href="courses.html">
+                          Courses
+                        </a>
+                      </li>
+                      <li class="dropdown-li">
+                        <a class="dropdown-item" href="gallery.html">
+                          Gallery
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact.html" class="nav-link"> Contact </a>
+                  </li>
+                  <li class="nav-item header-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Themes
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-li">
+                        <a class="dropdown-item theme" href="#" data-theme="1"
+                          >Theme 1</a
+                        >
+                      </li>
+                      <li class="dropdown-li">
+                        <a class="dropdown-item theme" href="#" data-theme="2"
+                          >Theme 2</a
+                        >
+                      </li>
+                      <li class="dropdown-divider"></li>
+                      <li class="dropdown-li">
+                        <a class="dropdown-item theme" href="#" data-theme="3"
+                          >Theme 3</a
+                        >
+                      </li>
+                      <li class="dropdown-li">
+                        <a class="dropdown-item theme" href="#" data-theme="4"
+                          >Theme 4</a
+                        >
+                      </li>
+                      <li class="dropdown-divider"></li>
+                      <li class="dropdown-li">
+                        <a class="dropdown-item theme" href="#" data-theme="5"
+                          >Theme 5</a
+                        >
+                      </li>
+                      <li class="dropdown-li">
+                        <a class="dropdown-item theme" href="#" data-theme="6"
+                          >Theme 6</a
+                        >
+                      </li>
+                      <li class="dropdown-li">
+                        <a class="dropdown-item theme" href="#" data-theme="7"
+                          >Theme 7</a
+                        >
+                      </li>
+                      <li class="dropdown-li">
+                        <a class="dropdown-item theme" href="#" data-theme="8"
+                          >Theme 8</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- Page Head Section -->
+        <div class="container page-head">
+          <div class="row">
+            <div class="col-12">
+              <h5 class="fs-1 fw-bold dancingFont pageHeading">
+                What is Calligraphy?
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Calligraphy Section -->
+      <section class="calligraphy-section my-5">
+        <div class="container my-4">
+          <div class="row justify-content-between py-5 gap-5">
+            <div class="col-12 col-md-5">
+              <div class="h-100 d-flex justify-content-center flex-column">
+                <h2 class="display-4 fw-bold cookie primaryColor lh-lg">
+                  The Origins of Calligraphy
+                </h2>
+                <ul>
+                  <li>
+                    <strong class="primaryColor cookie fs-4">Ancient Beginnings:&nbsp;</strong>Calligraphy as an
+                    art form began as early as ancient Egypt and Mesopotamia,
+                    where people used reed pens to inscribe symbols on clay
+                    tablets and papyrus. Over time, as writing systems evolved,
+                    so did the techniques and tools used to create them.
+                  </li>
+                  <br />
+                  <li>
+                    <strong class="primaryColor cookie fs-4">Arabic Calligraphy:&nbsp;</strong>Islamic
+                    calligraphy emerged around the 7th century, with intricate,
+                    flowing designs used to adorn religious texts and
+                    architecture. Styles like Kufic, Thuluth, and Naskh became
+                    prominent, creating a calligraphic tradition rich in beauty
+                    and symbolism.
+                  </li>
+                  <br />
+                  <li>
+                    <strong class="primaryColor cookie fs-4">Eastern Calligraphy:&nbsp;</strong>In China,
+                    calligraphy developed as an essential cultural art, with
+                    styles that valued balance, precision, and expressive
+                    strokes. Japanese and Korean calligraphy later adapted
+                    Chinese techniques, each developing its own distinctive
+                    forms and philosophies, often seen as meditative practices.
+                  </li>
+                  <br />
+                  <li>
+                    <strong class="primaryColor cookie fs-4">Western Calligraphy:&nbsp;</strong>In the Western
+                    world, calligraphy flourished during the medieval period,
+                    when illuminated manuscripts featured elaborate scripts and
+                    detailed illustrations. Gothic, Carolingian, and Italic
+                    scripts were commonly used in religious and scholarly texts,
+                    laying the foundation for modern Western calligraphy.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <img
+                src="./assets/images/History_Image.webp"
+                class="img-fluid rounded py-1"
+                alt="QuickCalligraphy"
+              />
+              <img
+                src="./assets/images/HistoryImage2.webp"
+                class="img-fluid rounded py-1"
+                alt="QuickCalligraphy"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container my-4">
+          <div class="row justify-content-between py-5 gap-5">
+            <div class="col-12 col-md-6">
+              <img
+                src="./assets/images/image.png"
+                class="img-fluid rounded"
+                alt="QuickCalligraphy"
+              />
+            </div>
+            <div class="col-12 col-md-5">
+              <div
+                class="h-100 d-flex align-items-start justify-content-center flex-column"
+              >
+                <h1 class="display-5 cookie primaryColor fw-bold mb-2">
+                  Styles for All Ages
+                </h1>
+                <q class="mb-2"
+                  ><em
+                    >Explore styles designed for different age groups and skill
+                    levels.</em
+                  ></q
+                >
+                <ul>
+                  <li class="fs-5 montserrat">
+                    <strong class="primaryColor cookie fs-4">Easy Forms for Kids:&nbsp;</strong>Young learners
+                    can begin with simple and fun projects that introduce basic
+                    calligraphy techniques in an engaging and creative way.
+                  </li>
+                  <li class="fs-5 montserrat">
+                    <strong class="primaryColor cookie fs-4"
+                      >Intermediate & Advanced Forms for Teens and
+                      Adults:&nbsp;</strong
+                    >Teens and adults can deepen their skills with projects that
+                    introduce more complex techniques and design elements.
+                  </li>
+                  <li class="fs-5 montserrat">
+                    <strong class="primaryColor cookie fs-4">Detailed and Complex Forms for Elders:&nbsp;</strong
+                    >Elders can enjoy advanced courses that focus on intricate,
+                    thoughtful compositions, enhancing both technique and
+                    appreciation for calligraphy.
+                  </li>
+                </ul>
+                <button type="button" class="btn mt-3 register-btn">
+                  <a href="contact.html" class="text-decoration-none">
+                    Register Now
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-between py-5 gap-5">
+            <div class="col-12 col-md-5">
+              <div
+                class="h-100 d-flex align-items-start justify-content-center flex-column"
+              >
+                <h1 class="display-5 cookie primaryColor fw-bold mb-2">
+                  Styles by Script and Tradition
+                </h1>
+                <q class="mb-2"
+                  ><em
+                    >Discover calligraphy styles from various cultural
+                    traditions.</em
+                  ></q
+                >
+                <ul>
+                  <li class="fs-5 montserrat">
+                    <strong class="primaryColor cookie fs-4">Arabic Calligraphy:&nbsp;</strong>Delve into styles
+                    like Naskh, Thuluth, and Kufic, experiencing the elegance
+                    and depth of Arabic calligraphic art.
+                  </li>
+                  <li class="fs-5 montserrat">
+                    <strong class="primaryColor cookie fs-4">Indic Calligraphy:&nbsp;</strong>With styles like
+                    Devanagari, Bengali, and Tamil, this section explores the
+                    complexity and grace of Indic scripts.
+                  </li>
+                  <li class="fs-5 montserrat">
+                    <strong class="primaryColor cookie fs-4">Greek Calligraphy:&nbsp;</strong>Learn the
+                    foundations of Greek script, gaining insight into the
+                    origins of Western calligraphy with classical techniques.
+                  </li>
+                  <li class="fs-5 montserrat">
+                    <strong class="primaryColor cookie fs-4">Western Calligraphy:&nbsp;</strong>Explore Gothic,
+                    Copperplate, Italic, and other traditional Western scripts,
+                    each with unique historical and stylistic significance.
+                  </li>
+                  <li class="fs-5 montserrat">
+                    <strong class="primaryColor cookie fs-4">Asian Calligraphy:&nbsp;</strong>This section covers
+                    brush-based scripts from Chinese, Japanese, and Korean
+                    traditions, focusing on fluidity, balance, and expressive
+                    line work.
+                  </li>
+                </ul>
+                <button type="button" class="btn mt-3 register-btn">
+                  <a href="courses.html" class="text-decoration-none">
+                   Our Courses
+                  </a>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <img
+                src="./assets/images/CalligraphyTypes.webp"
+                class="img-fluid rounded"
+                alt="QuickCalligraphy"
+              />
+            </div>
+          </div>
+          <div class="row justify-content-between py-5 gap-5">
+            <div class="col-12 col-md-6">
+              <img
+                src="./assets/images/Letter_Font_Desc.webp"
+                class="img-fluid rounded"
+                alt="QuickCalligraphy"
+              />
+            </div>
+            <div class="col-12 col-md-5">
+              <div
+                class="h-100 d-flex align-items-start justify-content-center flex-column"
+              >
+                <h1 class="display-5 cookie primaryColor fw-bold mb-2">
+                  Letter & Font Descriptions
+                </h1>
+                <q class="mb-2"
+                  ><em
+                    >Get to know each letter and font style with detailed
+                    descriptions.</em
+                  ></q
+                >
+                <p class="fs-5 montserrat">
+                  Each letterform and font style on our site comes with an
+                  in-depth description, detailing its historical background,
+                  unique structure, and the techniques required to recreate it
+                  authentically. By understanding the intricacies of each
+                  letter, students can enhance both their skills and
+                  appreciation for the art of calligraphy.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer Section -->
+      <section class="container-fluid footer pt-5">
+        <footer class="container">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="fs-2 fw-bold cookie primaryColor">Usefull Links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="calligraphy.html" class="nav-link p-0 footer-link">Calligraphy</a></li>
+                <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 footer-link">About Us</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="fs-2 fw-bold cookie primaryColor">Pages</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="gallery.html" class="nav-link p-0 footer-link">Gallery</a></li>
+                <li class="nav-item mb-2"><a href="courses.html" class="nav-link p-0 footer-link">Courses</a></li>
+                
+              </ul>
+            </div>
+            
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="fs-2 fw-bold cookie primaryColor">Contact</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 footer-link">Admission</a></li>
+                <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 footer-link">Contact Us</a></li>
+                <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 footer-link">Feedback</a></li>
+                
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5 class="fs-2 fw-bold cookie primaryColor">Subscribe to our newsletter</h5>
+                <p class="fs-6 montserrat">Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control customInput" placeholder="Email address">
+                  <button class="btn subscribe-btn" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2024 Aptech (MSG) PR2-2024-05G, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-x-twitter social-icn"></i></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-facebook-f social-icn"></i></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-instagram social-icn"></i></a></li>
+            </ul>
+          </div>
+        </footer>
+      </section>
+    </div>
+    <!-- Script Links -->
+    <!-- Bootstrap JS CDN link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquery JS CDN Link -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS Animation Script CDN Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom Script Sheet Link -->
+    <script src="./assets/javascript/script.js" type="text/javascript"></script>
+  </body>
+</html>
