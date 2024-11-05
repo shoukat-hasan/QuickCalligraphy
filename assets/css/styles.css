@@ -1,108 +1,67 @@
 :root {
 
-    /* Theme 1 */
-    .theme-1 {
-        --cc-primary: #BC997E;
-        /* Subtle Rosewood */
-        --cc-secondary: #202020;
-        /* Deep Charcoal */
-        --cc-background: #F2F2F2;
-        /* Light Canvas */
-        --cc-primary-text: #4A4A4A;
-        /* Smoky Gray */
-        --cc-hover: #1C3D5A;
-        /* Steel Blue */
+    .earthy-1 {
+        --cc-primary: #BC997E; /* Subtle Rosewood */
+        --cc-secondary: #202020; /* Deep Charcoal */
+        --cc-background: #F2F2F2; /* Light Canvas */
+        --cc-primary-text: #4A4A4A; /* Smoky Gray */
+        --cc-hover: #1C3D5A; /* Steel Blue */
     }
-
-    .theme-2 {
-        --cc-primary: #8A5A44;
-        /* Warm Ink Brown */
-        --cc-secondary: #3C3C3C;
-        /* Dark Charcoal */
-        --cc-background: #FAF3E0;
-        /* Parchment Paper */
-        --cc-primary-text: #5D5D5D;
-        /* Neutral Grey */
-        --cc-hover: #A65E2E;
-        /* Rich Copper */
+    
+    .earthy-2 {
+        --cc-primary: #8A5A44; /* Warm Ink Brown */
+        --cc-secondary: #3C3C3C; /* Dark Charcoal */
+        --cc-background: #FAF3E0; /* Parchment Paper */
+        --cc-primary-text: #5D5D5D; /* Neutral Grey */
+        --cc-hover: #A65E2E; /* Rich Copper */
     }
-
-    .theme-3 {
-        --cc-primary: #7B3F00;
-        /* Sepia Brown */
-        --cc-secondary: #2D2D2D;
-        /* Midnight Black */
-        --cc-background: #EFE9E0;
-        /* Soft Ivory */
-        --cc-primary-text: #4B4B4B;
-        /* Slate Gray */
-        --cc-hover: #9A3B19;
-        /* Burnt Sienna */
+    
+    .earthy-3 {
+        --cc-primary: #7B3F00; /* Sepia Brown */
+        --cc-secondary: #2D2D2D; /* Midnight Black */
+        --cc-background: #EFE9E0; /* Soft Ivory */
+        --cc-primary-text: #4B4B4B; /* Slate Gray */
+        --cc-hover: #9A3B19; /* Burnt Sienna */
     }
-
-    .theme-4 {
-        --cc-primary: #4C566A;
-        /* Classic Ink Blue */
-        --cc-secondary: #2E3440;
-        /* Graphite */
-        --cc-background: #ECEFF4;
-        /* Light Pearl */
-        --cc-primary-text: #434C5E;
-        /* Deep Slate */
-        --cc-hover: #5E81AC;
-        /* Soft Azure */
+    
+    .neutral-1 {
+        --cc-primary: #4C566A; /* Classic Ink Blue */
+        --cc-secondary: #2E3440; /* Graphite */
+        --cc-background: #ECEFF4; /* Light Pearl */
+        --cc-primary-text: #434C5E; /* Deep Slate */
+        --cc-hover: #5E81AC; /* Soft Azure */
     }
-
-    .theme-5 {
-        --cc-primary: #5A3B2E;
-        /* Antique Chestnut */
-        --cc-secondary: #1A1A1A;
-        /* Black Ink */
-        --cc-background: #F8F4E3;
-        /* Vintage Cream */
-        --cc-primary-text: #333333;
-        /* Dark Gray */
-        --cc-hover: #794B3F;
-        /* Rustic Mahogany */
+    
+    .neutral-2 {
+        --cc-primary: #334E68; /* Ink Blue */
+        --cc-secondary: #2B2B2B; /* Blackened Brown */
+        --cc-background: #FDFDFD; /* Bright White */
+        --cc-primary-text: #4B4B4B; /* Dark Gray */
+        --cc-hover: #1B3A4B; /* Deep Navy */
     }
-
-    .theme-6 {
-        --cc-primary: #334E68;
-        /* Ink Blue */
-        --cc-secondary: #2B2B2B;
-        /* Blackened Brown */
-        --cc-background: #FDFDFD;
-        /* Bright White */
-        --cc-primary-text: #4B4B4B;
-        /* Dark Gray */
-        --cc-hover: #1B3A4B;
-        /* Deep Navy */
+    
+    .vintage-1 {
+        --cc-primary: #5A3B2E; /* Antique Chestnut */
+        --cc-secondary: #1A1A1A; /* Black Ink */
+        --cc-background: #F8F4E3; /* Vintage Cream */
+        --cc-primary-text: #333333; /* Dark Gray */
+        --cc-hover: #794B3F; /* Rustic Mahogany */
     }
-
-    .theme-7 {
-        --cc-primary: #6A4E42;
-        /* Cocoa Brown */
-        --cc-secondary: #242424;
-        /* Ink Black */
-        --cc-background: #FBF7EF;
-        /* Light Tan */
-        --cc-primary-text: #464646;
-        /* Ash Gray */
-        --cc-hover: #8A644E;
-        /* Burnt Umber */
+    
+    .vintage-2 {
+        --cc-primary: #6A4E42; /* Cocoa Brown */
+        --cc-secondary: #242424; /* Ink Black */
+        --cc-background: #FBF7EF; /* Light Tan */
+        --cc-primary-text: #464646; /* Ash Gray */
+        --cc-hover: #8A644E; /* Burnt Umber */
     }
-
-    .theme-8 {
-        --cc-primary: #3B4C59;
-        /* Charcoal Blue */
-        --cc-secondary: #252525;
-        /* Charcoal Black */
-        --cc-background: #F3F3F3;
-        /* Soft Gray */
-        --cc-primary-text: #404040;
-        /* Dark Slate */
-        --cc-hover: #526A74;
-        /* Dusty Blue */
+    
+    .cool-1 {
+        --cc-primary: #3B4C59; /* Charcoal Blue */
+        --cc-secondary: #252525; /* Charcoal Black */
+        --cc-background: #F3F3F3; /* Soft Gray */
+        --cc-primary-text: #404040; /* Dark Slate */
+        --cc-hover: #526A74; /* Dusty Blue */
     }
 
 
@@ -335,13 +294,12 @@ input:focus, select:focus, textarea:focus {
 }
 
 
-.register-btn a,
-.explore-btn a {
+.register-btn a, .explore-btn a {
     color: var(--cc-background);
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 0;
-    transform: translateY(-8px);
+    transform: translateY(5px);
     width: 100%;
     height: 100%;
 }
