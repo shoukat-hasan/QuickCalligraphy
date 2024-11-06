@@ -224,15 +224,40 @@ input:focus, select:focus, textarea:focus {
 }
 
 .navbar-toggler {
-    background: var(--cc-primary);
+    background-color: var(--cc-primary);
     margin-right: 0;
     margin-left: auto;
     outline: none;
 }
 
+.header-item .nav-link.dropdown-toggle::after {
+    position: absolute;
+    right: 2px;
+    top: 16px;
+}
+
+.dropend .dropdown-item::after {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+
 .navbar-toggler:focus-within {
     outline: none;
     box-shadow: none;
+}
+
+.dropend .dropdown-item {
+    position: relative;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.dropdown-item.active, 
+.dropdown-item:active, 
+.dropdown-item:hover {
+    background-color: var(--cc-hover) !important;
+    color: var(--cc-background);
 }
 
 @media screen and (max-width: 991px) {
