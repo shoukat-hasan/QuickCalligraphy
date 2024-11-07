@@ -236,7 +236,7 @@ input:focus, select:focus, textarea:focus {
     top: 16px;
 }
 
-.dropend .dropdown-item::after {
+.dropstart .dropdown-item::after {
     position: absolute;
     right: 10px;
     top: 16px;
@@ -247,7 +247,7 @@ input:focus, select:focus, textarea:focus {
     box-shadow: none;
 }
 
-.dropend .dropdown-item {
+.dropstart .dropdown-item {
     position: relative;
     padding: 10px 15px;
     font-size: 16px;
